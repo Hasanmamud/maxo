@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        <!-- fonts -->
+        <!-- font awsome -->
+        <link rel="stylesheet" href="css/all.css">
+        <!-- font awsome -->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- bootstrap css start -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- bootstrap css end -->
+        <!-- date picker  -->
+        <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+        <!-- custom css start -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- custom css end -->
+        <!-- responsive media css start -->
+        <link rel="stylesheet" href="css/media.css">
+        <!-- responsive media css end -->
+      
+        <title>maxo cabs</title>
+      </head>
+
+<body>
+
+
+<!-- slider  -->
+<div class="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">PICK UP</h5>
+                      
+                      <form>
+                        
+                      
+                           
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend2"> <i class="fas fa-map-marker-alt"></i> </span>
+                              </div>
+                              <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                              </select>
+                            </div>
+
+                            <label class="c-custom mt-2">Return To The Same Location
+                                <input id="more-info" type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                              </label>
+
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="inputGroupPrepend2"> <i class="fas fa-calendar-week"></i>  </span>
+                                </div>
+                                <input id="filter-date" type="text" class="form-control" placeholder="pickup date" aria-label="Username" aria-describedby="basic-addon1">
+                              </div>
+  
+                        </div>
+                        
+                      </form>
+
+                      <!-- part 2  -->
+
+                      <div class="card-body">
+                        <h5 class="card-title">PICK UP</h5>
+                        
+                        <form>
+                          
+                        
+                             
+                              <div class="input-group mb-2" id="conditional-part">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="inputGroupPrepend2">  <i class="fas fa-map-marker-alt"></i>  </span>
+                                </div>
+                                <select id="inputState" class="form-control">
+                                  <option selected>Choose...</option>
+                                  <option>...</option>
+                                </select>
+                              </div>
+  
+                             
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroupPrepend2"> <i class="fas fa-calendar-week"></i>  </span>
+                                  </div>
+                                  <input id="filter-date1" type="text" class="form-control" placeholder="pickup date" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+    
+                          </div>
+                          
+                        </form>
+  
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/popper.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script>   
+        <!-- data cheack  -->
+        <script src="js/jquery.datetimepicker.full.min.js"></script>
+<Script>
+
+
+
+
+$('#more-info').change(function(){
+  if(this.checked  !=true){
+    $("#conditional-part").hide();
+  }
+  else{
+    $("#conditional-part").show();
+  }
+});
+
+
+jQuery('#filter-date') .datetimepicker()
+jQuery('#filter-date1') .datetimepicker()
+
+</Script>
+
+</body>
+
+</html>
+

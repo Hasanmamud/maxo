@@ -1,0 +1,473 @@
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header section   */
+
+.header{
+    background-color:#F0C540;
+}
+
+.menu ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff !important;
+    padding: 0 20px !important;
+}
+.menu ul li a:hover{
+    color: #273F44 !important;
+}
+
+.menu ul li :active a{
+    color: #273F44 !important;
+}
+
+.phn ul li{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff !important;
+    
+}
+
+.phn ul li:hover{
+    color: #273F44 !important;
+    
+}
+
+.slider-img{
+    background-image: url(../image/1s.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.slider-img1{
+    background-image: url(../image/1s.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.slider-img2{
+    background-image: url(../image/1s.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color:unset;
+    outline: none;
+    box-shadow: unset;
+}
+/* cheack  */
+
+/* The container */
+.c-custom {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .c-custom input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:20px;
+    width: 21px;
+    background-color: #273F44;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .c-custom:hover input ~ .checkmark {
+    background-color: #273F44;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .c-custom input:checked ~ .checkmark {
+    background-color: #273F44;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .c-custom input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .c-custom .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* cheak end  */
+.slider{
+  background-image: url(../image/sldr.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 80px 0;
+
+}
+
+.custom-bg{
+  background-color: #F0C540;
+
+}
+.btn-vehicla{
+  background-color: #1D140F;
+  color: #FFF;
+  padding: 10px 45px !important;
+  text-transform: uppercase; 
+  transition: 0.4s;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow:none;
+}
+
+.btn-vehicla:hover{
+  border: 1px solid #273F44;
+  background-color: #fff;
+}
+
+/* feature section  */
+
+
+
+.feateare{
+  padding: 80px 0;
+  background-color: #EEEEEE;
+}
+.cmn-titile h3{
+  font-size: 30px !important;
+  color: #273f44;
+  font-weight: 800;
+  padding-bottom: 40px;
+ 
+}
+
+.feyr-icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color:#F0C540 ;
+  text-align: center;
+  color: #fff;
+  padding-top: 10px;
+  
+}
+.feyr-icon i{
+  font-size: 38px;
+  transition: 2s !important;
+}
+.feyr-icon:hover{
+  
+    animation:pulse ; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+ 
+}
+
+.for-content h6{
+  font-size: 20px;
+  color:#273f44;
+}
+.for-content p{
+  color: #7D7D7D;
+}
+/* categori section  */
+
+.categorie{
+  background-color: #2E4147;
+  padding: 80px 0;
+}
+.ctg-content{
+  
+  color: #2E4147;
+}
+.ctg-content h4{
+  font-weight: 700;
+}
+
+.information{
+  color: #2E4147;
+}
+.information i{
+  font-size: 20px;
+  color:#F0C540;
+}
+.ctgbtn-custom{
+  background-color:#F0C540 ;
+  padding: 8px 25px;
+  border-radius: 0%;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+}
+.ctgbtn-custom:hover{
+  background-color:#2E4147 ;
+  color: #fff;
+}
+.custom-bgw{
+  background-color: #fff;
+  padding: 20px 0;
+  transition: 0.4s;
+}
+.custom-bgw:hover{
+  background-color:#F0C540;
+}
+.custom-bgw:hover .ctgbtn-custom{
+  background-color:#2E4147;
+}
+.custom-bgw:hover .information i{
+color: #2E4147;
+}
+
+/* slider section start  */
+.slider-section{
+  padding: 80px 0;
+  background-color: #F0C540;
+}
+
+.slider11-img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+  text-align: center;
+  margin: auto;
+}
+.slider11-img{
+
+  border-radius: 50%;
+
+}
+.slider-content{
+  text-align: center;
+  border: 1px dashed #2E4147;
+  padding: 30px;
+}
+.carousel-indicators li{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #2E4147; 
+  background-color: transparent;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.carousel-indicators li:hover{
+background-color: #EEEEEE; 
+}
+.carousel-indicators li.active{
+  background-color: #EEEEEE;
+  border: none;
+}
+
+.carousel-indicators{
+  margin-bottom:-70px;
+}
+
+/* about section  */
+
+.about-content{
+  padding: 80px 40px;
+}
+.custom-bg{
+  background-color: #2E4147;
+}
+.about-img{
+  background-image: url(../image/download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.custom-btn{
+    background-color: #F0C540;
+    color: #FFF;
+    padding: 10px 45px !important;
+    text-transform: uppercase; 
+    transition: 0.4s;
+}
+  
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow:none;
+}
+  
+.custom-btn:hover{
+    border: 1px solid #273F44;
+    background-color: #fff;
+}
+/* feadback setion  */
+
+.feadback-section{
+  background-color: #F0C540;
+  padding:40px 0;
+}
+.feadback-content h3{
+  font-size: 20px; 
+  font-weight: 700;
+}
+.feadbak-icon{
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn-custom1{
+  background-color:transparent;
+  color: #273F44;
+  text-transform: uppercase; 
+  transition: 0.4s;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #273F44;
+  padding: 11px 17px;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow:none;
+}
+
+.btn-custom1:hover{
+  border: 1px solid #273F44;
+  background-color: #fff;
+}
+
+/* map section  */
+/* footer  */
+.footer{
+  padding: 80px 0;
+  background-color: #273F44;
+}
+.footer-list ul li{
+  padding: 0 20px ;
+  font-size:20px;
+  font-weight: 700;
+  color: #fff;
+}
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #BD3518;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-circle ul li a {
+ background-color: #666;   
+}

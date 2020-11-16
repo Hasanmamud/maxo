@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.menu ul li :active a{
+    color: #273F44 !important;
+}

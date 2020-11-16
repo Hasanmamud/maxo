@@ -1,0 +1,128 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) { 
+
+/* header  */
+
+
+
+}
+/* feature  */
+.feyr-icon{
+	text-align: center;
+	margin: auto;
+
+}
+.for-content h6{
+	text-align: center;
+}
+
+/* catagory section  */
+.cmn-titile h3 {
+    font-size: 22px;
+    
+}
+.custom-bgw {
+    margin-top: 40px;
+}
+.custom-m {
+    margin-top: 10px;
+}
+/* feadback  */
+.feadback-content h3{
+	font-size: 10px; 
+	font-weight: 600;
+	text-align: center;
+  }
+  .feadbak-icon{
+	font-size: 10px;
+	font-weight: 600;
+	text-align: center;
+	margin: auto !important;
+  }
+  .t-custom{
+	  text-align: center;
+  }
+  .btn-custom1{
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* feature  */
+.feyr-icon{
+	text-align: center;
+
+}
+.for-content h6{
+	text-align: center;
+}
+
+/* feadback  */
+.feadback-content h3{
+	font-size: 10px; 
+	font-weight: 600;
+	text-align: center;
+	margin: auto !important;
+  }
+  .feadbak-icon{
+	font-size: 10px;
+	font-weight: 600;
+	text-align: center;
+  }
+  .btn-custom1{
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+  }
+  .custom-m {
+    margin-top: 10px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.for-content h6{
+		text-align: left;
+	}
+
+	/* featr icon  */
+	
+.feyr-icon{
+	width: 40px;
+	height: 40px;
+	padding-top: 5px;
+	
+  }
+  .feyr-icon i{
+	font-size: 28px;
+	transition: 2s !important;
+  }
+
+	}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.for-content h6{
+		text-align: left;
+	}
+
+
+   
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.for-content h6{
+		text-align: left;
+	}
+
+
+
+
+
+}
